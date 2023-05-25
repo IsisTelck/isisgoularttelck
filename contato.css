@@ -1,0 +1,32 @@
+header{
+    background:#D9D9D9;
+    padding:20px;
+}
+
+#logo{
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family:Trirong ;
+    src: url(Trirong-BlackItalic.ttf) format(Opentype);
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    font-size: 35px;
+    font-family: Trirong ;
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior de 40px,para os lados zero*/
+}
+
+form label,form p{/*vamos replicar a mesma configuração do for}
