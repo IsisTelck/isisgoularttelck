@@ -5,8 +5,9 @@ header{
 
 #logo{
     border-radius: 10px;
+    width: 250px;
+    height: 250px;
 }
-
 
 @font-face {
     font-family: 'Circe';
@@ -36,4 +37,56 @@ form label, form p{/*vamos replicar a mesma configuração do form label para o 
         display: block;
         font-size: 20px;
         margin: 0 0 10px; /*10px para baixo*/
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px; /*20px para baixo*/
+    padding: 10px 25px; /*10px p/cima e p/baixo, 25px p/ os lados*/
+    width: 50%; /*largura dos meus inputs*/
+}
+
+.checkbox{
+    margin: 20px 0; /*20px p/ cima e p/baixo e zero nas laterais*/
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #919191;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #cecece;
+    transform: scale(1.2);
+
+}
+
+.copyright{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to top, black, #ffffff);
+    /*Esta propriedade é utilizda para inserir imagens como plano de fundo de um elemento.
+    Para isso,fazemos uso da função url(), para a qual passamos coo parâmetro o caminho da imagem a ser inserida*/
+
+    padding: 10px 0;
+
+}
+
+#logo2{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
 }
