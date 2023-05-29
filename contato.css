@@ -32,4 +32,8 @@ form{
     margin: 40px 0; /*margem superior de 40px,para os lados zero*/
 }
 
-form label,form p{/*vamos replicar a mesma configuração do for}
+form label, form p{/*vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px; /*10px para baixo*/
+}
