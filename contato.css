@@ -1,0 +1,110 @@
+header{
+    background: #D9D9D9;
+    padding: 20px;
+}
+
+#logo{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+
+#logo2{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+@font-face {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circe'), url('CRC55.woff') format('woff');
+    }
+
+.titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    transform: translate(-10%, -50%);
+    font-size: 75px;
+    font-family: circe;
+    color: #cfb6b1;
+    /font-family: 'circe';/
+
+    color: 0000;
+    text-shadow: 
+                -1px -1px 0px #a08d88,
+                -1px 4px 0px #a08d88,
+                 1px 1px 0px #a08d88,
+                 1px 1px 0px #a08d88;
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+ 
+form{
+    margin: 40px 0; /*margem superior de 40px,para os lados zero*/
+}
+
+form label, form p{/*vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px; /*10px para baixo*/
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px; /20px para baixo/
+    padding: 10px 25px;/*10px para cima e p/ baixo 
+                       e 25px p/ os lados*/
+    width: 50%;/* largura dos meus inputs*/
+}
+
+.checkbox{
+    margin: 20px 0; /20px p/ cima e p/baico e 0 nas laterais/
+}
+
+.enviar{
+    width:40%;
+    padding: 15px 0; 
+    background: #919191;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+
+}
+
+.enviar: hover {
+    background: #cecece;
+    transform: scale(1.2);
+}
+
+.copyright {
+    color:  rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to top, black, #ffffff);
+    /*ou background-image: url("");
+    é utilizada para inserir imagens como plano de fundo de um elemento.
+    Para isso, fazemos uso da função url('')*/
+    padding: 10px 0;
+}
+
+#logo2{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+}
