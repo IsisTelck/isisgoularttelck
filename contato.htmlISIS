@@ -1,68 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <title> Contato </title>
-        <link rel="stylesheet" href="contato.css">
-        
+      <meta charset="UTF-8">
+      <title>contato</title>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="contato.css">
     </head>
- <body>
+    <body>
         <header>
             <img id="logo" src="logo-studiogolck.png">
             <h1 class="titulo-principal"> Loja de compra e venda de desenhos</h1>
-        </header>
+        
+            <nav>
+              <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">contato</a></li>
 
+              </ul>
+            </nav>
+        
+          </header>
+        
         <main>
-            <form>
-                <label for="nomesobrenome">Nome e sobrenome</label>
-                <input type="text" name="nome" id="nomesobrenome" class="input-padrao" 
-                placeholder="Seu nome e sobenome" required>
+             <form>
+               <label for="nomesobrenome">Nome e sobrenome</label>
+               <input type="text" name="nome" id="nomesobrenome"
+               class="input-padrao" placeholder="Seu nome e sobrenome"required>
+             </form>
+        
+            
+             <label for="email">Email</label>
+             <input type="text" name="email" id="email"
+             class="input-padrao" placeholder="seuemail@dominio.com" required>
 
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" class="input-padrao" 
-                placeholder="seuemail@dominio.com" required>
+            
+             <label for="telefone">Telefone</label>
+               <input type="text" name="telefone" id="telefone"
+               class="input-padrao" placeholder="(xx) xxxxx-xxxx" required>
 
-                <label for="telefone">Telefone</label>
-                <input type="text" name="telefone" id="telefone" class="input-padrao" 
-                placeholder="(XX) XXXXX-XXXX" required>
+             <label for="mensagem">Mensagem</label>
+             <textarea cols="70" rows="15" id="mensagem" required></textarea>
 
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" required></textarea>
+             <br><br><br>
 
-                <section>
+             <section>
+                 <p>Como prefere nosso contato?</p>
 
-                    <p>Como prefere nosso contato?</p>
-                    <input type="radio" name="contato" value="email" id="radio-email">
-                    <label for="radio-email"> Email</label>
+             <br>
+                 
+                 <input type="radio" name="contato" value="email"
+                 id="radio-email">
+                 <label for="radio-email">Email</label>
 
-                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
-                    <label for="radio-telefone"> Telefone</label>
+                 <input type="radio" name="contato" value="telefone"
+                 id="radio-telefone">
+                 <label for="radio-telefone">Telefone</label>
 
-                    <input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp" checked>
-                    <label for="radio-Whatsapp"> Whatsapp</label>
+                 <input type="radio" name="contato" value="whatsapp"
+                 id="radio-whatsapp" checked>
+                 <label for="radio-whatsapp">whatsapp</label>
+             </section>
 
-                </section>
-                <section>
-                    <p>Qual horário prefere ser atendido?</p>
-                    <select>
-                        <option>Manhã</option>
-                        <!--dropdown - seleções selecionaveis-->
-                        <option>Tarde</option>
-                        <option>Noite</option>
-                    </select>
-                </section>
+             <br>
 
-                <label <input class="checkbox">
-                <input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+             <section>
+                 <p>Qual horário prefere ser atendido?</p>
+                 
+             <br>
+                 
+                 <select>
+                    <option>Manhã</option>
+                    <!--dropdown - seleções selecionáveis-->
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                 </select>
+             </section>
 
-                <input type="submit" value="Enviar Formulário" class="enviar">
-               
-            </form>
-        </main>
-        <footer>
-            <img id="logo2" src="logo-studiogolck.png">
-            <p class="copyright">&copy; Copyright -- Ìsis Goulart Telck</p>
+             <label class="checkbox">
+            <input type="checkbox">Gostaria de receber nossas
+            novidades por email? </label>
 
-        </footer>
-    </body>
-</html>
+            <input type="submit" value="Enviar formulário"
+            class="enviar">
+
+             </form>
+            
+            
+            </main>
+
+            <footer>
+                <img id="logo2" src="logo-studiogolck.png">
+                <p class="copyright">&copy; Copyright -- Ìsis Goulart Telck</p>
+            </footer>
+      
+     </body>
+     </html>
